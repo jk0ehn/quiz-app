@@ -1,8 +1,22 @@
-* {
-    background-color: pink;
-    box-sizing: border-box;
-}
+* {}
 
 h1 {
     color: black;
+}
+
+
+.header {
+
+    display: flex;
+    justify-content: center;
+    padding: 25px 0 25px 0;
+    background-color: aquamarine;
+
+}
+
+.header__title {
+
+    font-size: 2rem;
+    text-decoration: none;
+
 }
