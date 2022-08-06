@@ -5,21 +5,32 @@ main {
 
 .qc-con {
 
-    margin: 7.5vw;
+    margin: 7.5vw 7.5vw 0 7.5vw;
     padding: 10vw;
-    border-radius:5px;
+    border-radius: 20px;
 
     background-color: rgb(216, 212, 234);
 
 }
 
 .qc-con-bkm {
+    
 position:relative;
-
 
 }
 
-.bu--ma {
+.bu--ma{
 
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
     
+}
+
+
+.bu--ma--qc {
+
+width: 200px;
+height: 50px;
+
 }
