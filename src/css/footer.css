@@ -1,13 +1,16 @@
 footer {
-display: flex;
-align-items: center;
-justify-content: space-around;
-    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(0, 255, 38);
 }
 
-button {
-border: none;
-background: none;
 
+
+
+.bu--fo {
+    border: none;
+    background: none;
+    cursor: pointer;
 
 }
