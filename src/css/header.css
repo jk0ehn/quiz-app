@@ -8,6 +8,10 @@
     align-items: center;
     padding: 25px 0 25px 0;
     background-color: aquamarine;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
 
 }
 

@@ -6,12 +6,13 @@
 main {
 
     background-color: yellow;
+
 }
 
 .qc-con {
 
-    margin: 7.5vw 7.5vw 0 7.5vw;
-    padding: 10vw;
+    margin: 40px 40px 20px 40px;
+    padding: 0px 30px 30px 30px;
     border-radius: 20px;
 
     background-color: rgb(216, 212, 234);
@@ -19,24 +20,29 @@ main {
 }
 
 .qc-con-bkm {
-    
-position:relative;
+    background-color: blueviolet;
+    fill: white;
+
 
 }
 
-.bu--ma{
+
+
+.bu--ma {
 
     margin-top: 50px;
     display: flex;
     justify-content: center;
-    
+
 }
 
 
 .bu--ma--qc {
 
-width: 200px;
-height: 50px;
+    width: 200px;
+    height: 50px;
+    border: solid 1px;
+    border-radius: 10px;
 
 }
 
@@ -45,7 +51,7 @@ height: 50px;
     align-items: flex-start;
     gap: 10px;
 
-margin-top: 40px ;
+    margin-top: 40px;
     background-color: blue;
 }
 
@@ -53,4 +59,15 @@ margin-top: 40px ;
     background-color: rgb(239, 239, 239);
     border-radius: 5px;
     padding: 10px;
+}
+
+
+.icontest {
+
+    display: flex;
+    justify-content: end;
+    position: relative;
+    top: -10px;
+    z-index: 0;
+    
 }
