@@ -1,143 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
     <title>Quiz App</title>
+  </head>
 
-</head>
-
-<body>
-
-
+  <body>
     <div class="container">
+      <header class="header">
+        <a class="header--title" href="./index.html">
+          <h1>QUIZ APP</h1>
+        </a>
+      </header>
 
-        <header class="header">
+      <main class="home">
+        <div class="main__quizcard">
+          <div class="main__quizcard__bkm-icon">
+            <svg class="quizcard__bkm__icon--small" viewBox="0 0 24 24">
+              <path
+                d="M17,3H7A2,2 0 0,0 5,5V21L12,18L19,21V5C19,3.89 18.1,3 17,3Z"
+              />
+            </svg>
+          </div>
 
-            <a class="header--title" href="./index.html">
-                <h1>QUIZ APP</h1>
-            </a>
-
-
-        </header>
-
-        <main>
-
-
-
-            <div class="qc-con">
-
-                <div class="icontest">
-                    <svg class="qc-con-bkm" style="width:24px;height:24px" viewBox="0 0 24 24">
-                        <path fill="currentColor" d="M17,3H7A2,2 0 0,0 5,5V21L12,18L19,21V5C19,3.89 18.1,3 17,3Z" />
-                    </svg>
-                </div>
-
-                <div class="qc-con-i">
-
-                    <div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam odit animi, enim itaque
-                            perferendis quidem aliquid delectus ratione nesciunt tenetur.</p>
-                    </div>
-
-
-                    <div class="bu--ma">
-                        <button class="bu--ma--qc">
-                            SHOW ANSWER
-                        </button>
-                    </div>
-
-                    <div class="tag">
-
-                        <span class="tagin">#html</span>
-                        <span class="tagin">#flexbox</span>
-                        <span class="tagin">#css</span>
-
-                    </div>
-
-                </div>
-
+          <div class="main__quizcard_text">
+            <div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Quisquam odit animi, en im itaque perferendis quidem aliquid
+                delectus ratione nesciunt tenetur.
+              </p>
             </div>
 
-            <div class="qc-con">
-
-                <div class="icontest">
-                    <svg class="qc-con-bkm" style="width:24px;height:24px" viewBox="0 0 24 24">
-                        <path fill="currentColor" d="M17,3H7A2,2 0 0,0 5,5V21L12,18L19,21V5C19,3.89 18.1,3 17,3Z" />
-                    </svg>
-                </div>
-
-                <div class="qc-con-i">
-
-                    <div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam odit animi, enim itaque
-                            perferendis quidem aliquid delectus ratione nesciunt tenetur.</p>
-                    </div>
-
-
-                    <div class="bu--ma">
-                        <button class="bu--ma--qc">
-                            SHOW ANSWER
-                        </button>
-                    </div>
-
-                    <div class="tag">
-
-                        <span class="tagin">#html</span>
-                        <span class="tagin">#flexbox</span>
-                        <span class="tagin">#css</span>
-
-                    </div>
-
-                </div>
-
+            <div class="main__quizcard_button">
+              <button class="main__quizcard_button--one">SHOW ANSWER</button>
             </div>
 
+            <div class="tag">
+              <span class="tagin">#html</span>
+              <span class="tagin"> #flexbox</span>
+              <span class="tagin">#css</span>
+            </div>
+          </div>
+        </div>
 
-        </main>
+        <div class="main__quizcard">
+          <div class="main__quizcard__bkm-icon">
+            <svg class="quizcard__bkm__icon--small" viewBox="0 0 24 24">
+              <path
+                d="M17,3H7A2,2 0 0,0 5,5V21L12,18L19,21V5C19,3.89 18.1,3 17,3Z"
+              />
+            </svg>
+          </div>
 
+          <div class="main__quizcard_text">
+            <div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Quisquam odit animi, en im itaque perferendis quidem aliquid
+                delectus ratione nesciunt tenetur.
+              </p>
+            </div>
 
-        <footer class="main-footer">
+            <div class="main__quizcard_button">
+              <button class="main__quizcard_button--one">SHOW ANSWER</button>
+            </div>
 
-            <nav class="main-footer__nav">
+            <div class="tag">
+              <span class="tagin">#html</span>
+              <span class="tagin"> #flexbox</span>
+              <span class="tagin">#css</span>
+            </div>
+          </div>
+        </div>
+      </main>
 
-                <a href="./index.html" class="link footer__link">
+      <footer class="footer__main">
+        <nav class="footer__main--nav">
+          <a href="./index.html" class="link footer__link">
+            <svg class="link__icon link__icon--small" viewBox="0 0 24 24">
+              <path d="M10,20V14H14V20H19V12H22L12,3L2,12H5V20H10Z" />
+            </svg>
+          </a>
 
-                    <svg class="link__icon link__icon--small" viewBox="0 0 24 24">
-                        <path d="M10,20V14H14V20H19V12H22L12,3L2,12H5V20H10Z" />
-                    </svg>
+          <a href="./bookmark.html" class="link footer__link">
+            <svg class="link__icon link__icon--small" viewBox="0 0 24 24">
+              <path
+                d="M17,3H7A2,2 0 0,0 5,5V21L12,18L19,21V5C19,3.89 18.1,3 17,3Z"
+              />
+            </svg>
+          </a>
 
-                </a>
-
-
-
-                <a href="./bookmark.html" class="link footer__link">
-
-                        <svg class="link__icon link__icon--small" viewBox="0 0 24 24">
-                            <path d="M17,3H7A2,2 0 0,0 5,5V21L12,18L19,21V5C19,3.89 18.1,3 17,3Z" />
-                        </svg>
-                </a>
-
-                <a href="./profile.html" class="link footer__link">
-
-                        <svg class="link__icon link__icon--small" viewBox="0 0 24 24">
-                            <path
-                                d="M12,19.2C9.5,19.2 7.29,17.92 6,16C6.03,14 10,12.9 12,12.9C14,12.9 17.97,14 18,16C16.71,17.92 14.5,19.2 12,19.2M12,5A3,3 0 0,1 15,8A3,3 0 0,1 12,11A3,3 0 0,1 9,8A3,3 0 0,1 12,5M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12C22,6.47 17.5,2 12,2Z" />
-                        </svg>
-                </a>
-
-
-            </nav>
-
-        </footer>
-
-
+          <a href="./profile.html" class="link footer__link">
+            <svg class="link__icon link__icon--small" viewBox="0 0 24 24">
+              <path
+                d="M12,19.2C9.5,19.2 7.29,17.92 6,16C6.03,14 10,12.9 12,12.9C14,12.9 17.97,14 18,16C16.71,17.92 14.5,19.2 12,19.2M12,5A3,3 0 0,1 15,8A3,3 0 0,1 12,11A3,3 0 0,1 9,8A3,3 0 0,1 12,5M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12C22,6.47 17.5,2 12,2Z"
+              />
+            </svg>
+          </a>
+        </nav>
+      </footer>
     </div>
-
-
-</body>
-
+  </body>
 </html>

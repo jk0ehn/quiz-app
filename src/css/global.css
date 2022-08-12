@@ -1,15 +1,10 @@
 body {
-padding: 0;
-margin: 0;
-
+  padding: 0;
+  margin: 0;
 }
 
-
 .container {
-
-   display: grid;
-   height: 100vh;
-   grid-template-rows: 100px auto 80px;
-    
-
+  display: grid;
+  height: 100vh;
+  grid-template-rows: 100px auto;
 }

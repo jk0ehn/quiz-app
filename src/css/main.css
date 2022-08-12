@@ -9,7 +9,7 @@ main {
 
 }
 
-.qc-con {
+.main__quizcard {
 
     margin: 40px 40px 20px 40px;
     padding: 0px 30px 30px 30px;
@@ -19,16 +19,28 @@ main {
 
 }
 
-.qc-con-bkm {
+.main__quizcard__bkm-icon{
+
+    display: flex;
+    justify-content: end;
+    position: relative;
+    top: -10px;
+    z-index: 0;
+    
+}
+
+.quizcard__bkm__icon--small {
     background-color: blueviolet;
-    fill: white;
+    width: 24px;
+    height: 24px;
+    fill: red;
 
 
 }
 
 
 
-.bu--ma {
+.main__quizcard_button {
 
     margin-top: 50px;
     display: flex;
@@ -37,7 +49,7 @@ main {
 }
 
 
-.bu--ma--qc {
+.main__quizcard_button--one {
 
     width: 200px;
     height: 50px;
@@ -62,12 +74,3 @@ main {
 }
 
 
-.icontest {
-
-    display: flex;
-    justify-content: end;
-    position: relative;
-    top: -10px;
-    z-index: 0;
-    
-}
