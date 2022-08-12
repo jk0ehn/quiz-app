@@ -4,7 +4,7 @@
   bottom: 0;
   z-index: 2;
   color: black;
-  background-color: #dadada;
+  /* background-color: orange; */
 }
 
 .footer__main--nav {
@@ -12,27 +12,35 @@
   align-items: center;
   flex-grow: 1;
   justify-content: space-around;
-  background-color: magenta;
+  /* background-color: magenta; */
   color: black;
+  border: none;
+  height: 100%;
 }
 
 /*.block__element--modifier {} */
 
 .footer__link {
   display: inline-flex;
-  height: 48px;
+  height: 100%;
   flex-grow: 1;
   justify-content: center;
   align-items: center;
-  background-color: goldenrod;
+  /* background-color: goldenrod; */
 }
 
-.link {
-  color: currentColor;
+.footer__link:hover {
+  background-color: greenyellow;
+  color: aliceblue;
+}
+
+.footer__link.active {
+  background-color: skyblue;
+  color: aliceblue;
 }
 
 .link__icon {
-  fill: currentColor;
+  fill: red;
 }
 
 .link__icon--small {
